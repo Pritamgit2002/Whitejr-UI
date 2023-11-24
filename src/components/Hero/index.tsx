@@ -41,14 +41,14 @@ const Hero = (props: Props) => {
           </div>
           <div className=" relative">
             <Image
-              src="https://images.pexels.com/photos/4144102/pexels-photo-4144102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/3783725/pexels-photo-3783725.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               height={400}
               width={500}
               alt=""
               className="w-[550px] sm:w-[250px] rounded-3xl"
             />
             <p className="absolute left-0 bottom-0 rounded-bl-3xl rounded-r-3xl px-4 py-2 bg-gray-300 bg-opacity-80">
-              Mr. Kaur
+              Mrs. Kaur
             </p>
           </div>
         </div>
