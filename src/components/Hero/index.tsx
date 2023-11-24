@@ -29,7 +29,7 @@ const Hero = (props: Props) => {
         <div className="flex flex-row mx-auto sm:mx-0  sm:flex-col gap-6 bg-red-400 w-full  ">
           <div className=" relative ">
             <Image
-              src="/./stud.jpg"
+              src="https://images.pexels.com/photos/4144102/pexels-photo-4144102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               height={4000}
               width={5000}
               alt=""
@@ -41,7 +41,7 @@ const Hero = (props: Props) => {
           </div>
           <div className=" relative">
             <Image
-              src="/./teacher.jpg"
+              src="https://images.pexels.com/photos/4144102/pexels-photo-4144102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               height={400}
               width={500}
               alt=""
