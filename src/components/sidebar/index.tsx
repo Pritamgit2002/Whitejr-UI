@@ -28,7 +28,7 @@ const Sidebar = (props: Props) => {
 
         <div className="relative text-2xl  cursor-pointer ">
           <GoBell />
-          <div className="absolute -translate-y-6 translate-x-3 h-3 w-3 rounded-full bg-red-500"></div>
+          <div className="absolute -translate-y-6 translate-x-3 h-3 w-3 rounded-full bg--500"></div>
         </div>
 
         <div className="text-2xl text-gray-400 hover:text-gray-600/90 cursor-pointer">

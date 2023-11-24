@@ -26,7 +26,7 @@ const Hero = (props: Props) => {
   return (
     <div className="flex flex-col-reverse md:flex-row gap-y-16 md:gap-x-16 w-full items-start">
       <div className="space-y-3">
-        <div className="flex flex-row mx-auto sm:mx-0  sm:flex-col gap-6 bg-red-400 w-full  ">
+        <div className="flex flex-row mx-auto sm:mx-0  sm:flex-col gap-6 bg--400 w-full  ">
           <div className=" relative ">
             <Image
               src="https://images.pexels.com/photos/4144102/pexels-photo-4144102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"

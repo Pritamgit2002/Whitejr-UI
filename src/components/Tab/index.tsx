@@ -16,7 +16,7 @@ type Documentsps = {};
 const Tab = (Documentsps: Documentsps) => {
   return (
     <div>
-      <Tabs defaultValue="Classroom" className="flex flex-col gap-y-10 sm:gap-y-4 bg-green-400 ">
+      <Tabs defaultValue="Classroom" className="flex flex-col gap-y-10 sm:gap-y-4 bg--400 ">
         <TabsList className="grid  grid-cols-6 sm:w-[90vw] h-16 rounded-full w-full bg-gray-200 py-2">
           <TabsTrigger value="Classroom" className=" w-40 text-[20px] py-2">
             Classroom

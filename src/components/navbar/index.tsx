@@ -5,7 +5,7 @@ import { MdOutlineSupportAgent } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <div className="flex h-max gap-96 sm:gap-0  items-center justify-center sm:gap-x-[700px] mt-3 bg-red-500/80">
+    <div className="flex h-max gap-96 sm:gap-0  items-center justify-center sm:gap-x-[700px] mt-3 bg--500/80">
       <div className="flex items-center    gap-3">
         <div className="bg-gray-300/60 rounded-xl flex items-center justify-center w-12 h-12 text-2xl text-gray-600/70">
           <GrFormPrevious />
