@@ -16,27 +16,27 @@ type Documentsps = {};
 const Tab = (Documentsps: Documentsps) => {
   return (
     <div>
-      <Tabs defaultValue="Classroom" className="flex flex-col gap-y-10 sm:gap-y-4 bg--400 ">
-        <TabsList className="grid  grid-cols-6 sm:w-[90vw] h-16 rounded-full w-full bg-gray-200 py-2">
-          <TabsTrigger value="Classroom" className=" w-40 text-[20px] py-2">
+      <Tabs defaultValue="Videos" className="flex flex-col w-full bg--300 sm:w-[90vw] gap-y-10 sm:gap-y-4 bg--400 ">
+        <TabsList className="grid grid-cols-3 sm:grid-cols-6 h-max sm:h-16 rounded-lg sm:rounded-full  bg-gray-200 py-2 mx-auto ">
+          <TabsTrigger value="Classroom" className=" w-40 text-[15px] sm:text-[20px] py-2">
             Classroom
           </TabsTrigger>
           <TabsTrigger
             value="Whiteboard"
-            className="w-40 text-[15px] sm:text-[20px] py-2"
+            className="sm:w-40 text-[15px] sm:text-[20px] py-2"
           >
             Whiteboard
           </TabsTrigger>
-          <TabsTrigger value="Videos" className="w-40 text-[15px] sm:text-[20px] py-2">
+          <TabsTrigger value="Videos" className="sm:w-40 text-[15px] sm:text-[20px] py-2">
             Videos
           </TabsTrigger>
-          <TabsTrigger value="Slide Show" className="w-40 text-[15px] sm:text-[20px] py-2">
+          <TabsTrigger value="Slide Show" className="sm:w-40 text-[15px] sm:text-[20px] py-2">
             Slide Show
           </TabsTrigger>
-          <TabsTrigger value="Documents" className="w-40 text-[15px] sm:text-[20px] py-2">
+          <TabsTrigger value="Documents" className="sm:w-40 text-[15px] sm:text-[20px] py-2">
             Documents
           </TabsTrigger>
-          <TabsTrigger value="Doc.Cam" className="w-40 text-[15px] sm:text-[20px] py-2">
+          <TabsTrigger value="Doc.Cam" className="sm:w-40 text-[15px] sm:text-[20px] py-2">
             Doc.Cam
           </TabsTrigger>
         </TabsList>
@@ -52,7 +52,7 @@ const Tab = (Documentsps: Documentsps) => {
           WhiteBoard
         </TabsContent>
 
-        <TabsContent value="Videos" className="text-2xl relative inset-0 pl-4">
+        <TabsContent value="Videos" className="text-2xl relative inset-0 sm:pl-4">
           <Hero />
         </TabsContent>
 

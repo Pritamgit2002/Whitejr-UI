@@ -12,7 +12,7 @@ const page = (props: Props) => {
       <div className=" hidden sm:inline-block">
         <Sidebar />
       </div>
-      <div className="flex flex-col gap-y-6 sm:gap-y-4">
+      <div className="flex flex-col gap-y-6  sm:gap-y-4">
         <Navbar />
         <Tab/>
       </div>

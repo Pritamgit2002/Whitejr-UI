@@ -95,13 +95,14 @@ const Hero = (props: Props) => {
           </div>
         </div>
       </div>
-      <div className="w-[800px] mx-auto sm:w-full h-[78vh]">
+      <div className=" mx-auto w-full ">
         {isClient && (
           <DynamicReactPlayer
             controls
             url="https://www.youtube.com/watch?v=1w7OgIMMRc4"
             width="100%"
             height="100%"
+            style={{aspectRatio:16/9}}
           />
         )}
       </div>
