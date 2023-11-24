@@ -100,8 +100,8 @@ const Hero = (props: Props) => {
           <DynamicReactPlayer
             controls
             url="https://www.youtube.com/watch?v=1w7OgIMMRc4"
-            width="100%"
-            height="100%"
+            width="95%"
+            height="95%"
             style={{aspectRatio:16/9}}
           />
         )}
